@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Línea del tiempo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Evolución de la AI</h1>
+      <nav>
+        <button onclick="expandAll()">Expand All</button>
+        <button onclick="collapseAll()">Collapse All</button>
+      </nav>
+
+      <section>
+        <div class="item">
+          <div class="header">
+            <button onclick="toggleItem(this)">
+              <img src="./img/chevron-right-solid-24.png" alt="" />
+            </button>
+            <span class="dot"></span>
+            <span class="title">
+              <span class="date">Años 1940s - 1950s</span>
+              <strong>Los Primeros Conceptos</strong>
+            </span>
+          </div>
+          <div class="body">
+            <p>
+              <strong class="time">1943:</strong> Modelo de Neurona Artificial: Warren McCulloch y Walter Pitts publican un modelo matemático para neuronas, el cual es considerado uno de los primeros trabajos teóricos en IA.
+              <br>
+              <br>
+              <strong class="time">1950:</strong> Test de Turing: Alan Turing publica "Computing Machinery and Intelligence", donde propone el "Test de Turing" como una forma de medir la inteligencia de una máquina.
+            </p>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="header">
+            <button onclick="toggleItem(this)">
+              <img src="./img/chevron-right-solid-24.png" alt="" />
+            </button>
+            <span class="dot"></span>
+            <span class="title">
+              <span class="date">Años 1950s - 1960s</span>
+              <strong>Los Primeros Pasos</strong>
+            </span>
+          </div>
+          <div class="body">
+            <p>
+              <strong class="time">1956:</strong> Dartmouth Conference: Se celebra la conferencia de Dartmouth, considerada el nacimiento oficial de la IA como campo de estudio académico. John McCarthy, Marvin Minsky, Nathaniel Rochester y Claude Shannon son algunos de los participantes.
+              <br>
+              <br>
+              <strong class="time">1958:</strong> Lenguaje LISP: John McCarthy desarrolla LISP, un lenguaje de programación que se convertiría en uno de los principales lenguajes para la investigación en IA.
+            </p>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="header">
+            <button onclick="toggleItem(this)">
+              <img src="./img/chevron-right-solid-24.png" alt="" />
+            </button>
+            <span class="dot"></span>
+            <span class="title">
+              <span class="date">Años 1960s - 1970s</span>
+              <strong>Primeras Aplicaciones</strong>
+            </span>
+          </div>
+          <div class="body">
+            <p>
+              <strong class="time">1966:</strong> ELIZA: Joseph Weizenbaum desarrolla ELIZA, uno de los primeros programas de procesamiento del lenguaje natural, capaz de simular una conversación humana.
+              <br>
+              <br>
+              <strong class="time">1970s:</strong> Sistemas Expertos: Surge el concepto de sistemas expertos, como MYCIN, diseñado para diagnosticar infecciones bacterianas en la sangre, utilizando reglas de inferencia.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./app.js"></script>
+</html>
