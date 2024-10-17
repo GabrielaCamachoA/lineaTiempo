@@ -4,7 +4,8 @@ body{
     background: url(https://images.pexels.com/photos/5198392/pexels-photo-5198392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 90vh;
+    min-height: 100vh;
+    margin: 0;
 }
 main{
     margin: auto;
@@ -22,6 +23,10 @@ nav button:hover{
 .item{
     margin-top: 10px;
     position: relative;
+}
+h1{
+    margin: 0;
+    padding: 16px 0;
 }
 .item button{
     width: 32px;
